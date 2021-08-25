@@ -7,48 +7,50 @@ function About() {
       <div className="App-text about">
         <div className="about-text__title">
           Hello, I'm{" "}
-          <span className="about-text__title-big">Pathetic Geek</span>.
+          <span className="about-text__title-big">Robert Martino</span>.
         </div>
         <div className="about-text__title">
-          I'm looking for <span className="about-text__title-big">Cool</span>{" "}
-          works.
+          I'm a data scientist open to interesting opportunities
         </div>
         <div className="about-text__body">
-          I'm a self-taught full stack web & mobile developer who is always
-          learning new things.
+          I graduated from Rensselaer Polytechnic Institute with a B.S. in
+          Computer Science in 2017 and a M.S. in Computer Science in 2018.
           <br />
-          <br />I am fluent in HTML5/CSS3, JavaScript, Node.js, React, Redux,
-          Next, React Native, Firebase, MongoDB, Puppeteer.
+          <br />
         </div>
         <div className="about-social">
           <div className="about-social__title">You can find me here</div>
           <div className="about-social__links">
             <a
               className="about-social__link"
-              href="https://instagram.com/patheticGeek"
+              href="https://linkedin.com/in/bobbymartino"
               rel="noopener noreferrer"
-              target="_blank">
-              instagram
+              target="_blank"
+            >
+              LinkedIN
             </a>
             <a
               className="about-social__link"
-              href="https://github.com/patheticGeek"
+              href="https://github.com/bobbydmartino"
               rel="noopener noreferrer"
-              target="_blank">
+              target="_blank"
+            >
               github
             </a>
             <a
               className="about-social__link"
-              href="https://codesandbox.io/u/patheticGeek"
+              href="/assets/resume.pdf"
               rel="noopener noreferrer"
-              target="_blank">
-              codesandbox
+              target="_blank"
+            >
+              Resume
             </a>
             <a
               className="about-social__link"
-              href="mailto:geekpathetic@gmail.com"
+              href="mailto:bobbydmartino@gmail.com"
               rel="noopener noreferrer"
-              target="_blank">
+              target="_blank"
+            >
               email
             </a>
           </div>

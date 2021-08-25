@@ -12,7 +12,8 @@ function Menu() {
     <>
       <div
         className={`menu-icon__container${menuOpen ? " menu-open" : ""}`}
-        onClick={() => toggleMenu(!menuOpen)}>
+        onClick={() => toggleMenu(!menuOpen)}
+      >
         <div className="menu-icon">
           <div />
           <div />
@@ -26,17 +27,18 @@ function Menu() {
           <Link to="/" className="menu-item">
             <div className="menu-item__title">Home</div>
             <div className="menu-item__background" />
-            <div className="menu-item__subtitle">Start fresh</div>
-          </Link>
-          <Link to="/work" className="menu-item">
-            <div className="menu-item__title">Work</div>
-            <div className="menu-item__background" />
-            <div className="menu-item__subtitle">Some of my projects</div>
           </Link>
           <Link to="/about" className="menu-item">
             <div className="menu-item__title">About</div>
             <div className="menu-item__background" />
-            <div className="menu-item__subtitle">Me, myself and I</div>
+          </Link>
+          <Link to="/work" className="menu-item">
+            <div className="menu-item__title">Experience</div>
+            <div className="menu-item__background" />
+          </Link>
+          <Link to="/work" className="menu-item">
+            <div className="menu-item__title">Projects</div>
+            <div className="menu-item__background" />
           </Link>
         </div>
       </div>

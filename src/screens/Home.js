@@ -8,10 +8,8 @@ function App() {
       <Particle params={particlesConfig} className="App-particles__container" />
       <div className="App">
         <div className="App-text">
-          <h1 className="App-text__title">Pathetic Geek</h1>
-          <h2 className="App-text__body">
-            I am a full stack web and mobile developer
-          </h2>
+          <h1 className="App-text__title">Robert Martino</h1>
+          <h2 className="App-text__body">Data Scientist</h2>
         </div>
       </div>
     </>

@@ -46,7 +46,7 @@
   transform-origin: left;
   background-image: linear-gradient(
     to right,
-    rgb(138, 134, 190),
+    rgb(17, 0, 255),
     rgb(238, 224, 251)
   );
 }
@@ -137,7 +137,7 @@
   transition: 0.15s all ease-in-out;
   background-image: linear-gradient(
     to right,
-    rgb(138, 134, 190),
+    rgb(17, 0, 255),
     rgb(238, 224, 251)
   );
 }
